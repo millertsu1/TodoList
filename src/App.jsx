@@ -2,7 +2,7 @@ import TodoList from "./components/TodoList/TodoList"
 
 const App = () => {
   return (
-    <div>
+    <div className="h-screen flex justify-center items-center">
       <TodoList />
       
     </div>
