@@ -1,12 +1,15 @@
-import TodoList from "./components/TodoList/TodoList"
+import Header from "./components/Header/Header";
+import TodoList from "./components/TodoList/TodoList";
 
 const App = () => {
   return (
-    <div className="h-screen flex justify-center items-center">
-      <TodoList />
-      
-    </div>
-  )
-}
+    <>
+      <Header />
+      <div className=" mt-20">
+        <TodoList />
+      </div>
+    </>
+  );
+};
 
-export default App
+export default App;
